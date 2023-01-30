@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+
+/* Header */
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: white;
+}
+.header{
+  background:  #020013;
+  height: 30vh;
+  color: white;
+  /* position: relative; */
+}
+.header h3{
+  border: 1px solid white;
+  display: inline;
+  width: 100%;
+}
+/* Navbar */
+
+.nav_bg{
+  background-color: #120E43 !important;
+  z-index: 1 !important;
+}
+
+.Footer_bg{
+  background-color: #120E43 !important;
+}
+
+.navbar a{
+  color: white !important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav_bg{
+  position: sticky;
+  top: 0;
+}
+.navbar-toggler{
+  color: #120E43 !important;
+}
+.navbar-toggler-icon{
+  color: white !important;
+}
+.bi{
+  
+ font-size: 2rem !important; 
+}
+/* search bar */
+.searchbar{
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  }
+
+  .search_input{
+  color: black;
+  border: 0;
+  outline: 0;
+  background: none;
+  padding: 0 10px;
+  width: 400px;
+  caret-color:red;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+  }
+
+  .search_icon{
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:#e74c3c;
+  text-decoration:none;
+  }
+  .bi-search{
+    font-size: 3rem;
+  }
+
+  /* main head */
+  .mainhead img{
+    width: 1100px;
+    object-fit: cover;
+  }
+  
+  /* product-1 */
+  .product-1{
+    /* position: relative;
+    overflow: hidden; */
+    z-index: 2 !important;
+  }
+
+  /* Cards */
+  .Cards:hover{
+    -webkit-box-shadow: -1px 2px 10px 5px rgba(0,0,0,0.24); 
+box-shadow: -1px 2px 10px 5px rgba(119, 116, 116, 0.24);
+  }
+  .ms-3 a{
+    text-decoration: none !important;
+    color: black !important;
+  }
+
+  /* Motherboard */
+  .Mbrands a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-family: 'Noto Sans JP', sans-serif !important;
+  }
+  .Mbrands a:hover{
+    color: red;
+  }
+  .MBrd h4{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+  }
+
+  /* register form */
+  .input-form{
+    width: 20rem;
+    margin-bottom: 0.7rem;
+  }
+  .form-con{
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4);
+  }
+  form{
+    padding:2rem 0 0 2rem;
+    font-weight:600;
+  }
+
+  /* login form */
+NavLink{
+  color: black;
+}
+
+
+  
+  /* Hire form */
+  .hire-con{
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4);
+    box-sizing: border-box;
+  }
+  .hire-con .input-form{
+    width: 30rem;
+    border: none;
+    border-bottom: 2px solid green;
+  }
+  textarea{
+    border: 2px solid green;
+  }
+
+  .register{
+    background-color: #6c63ff;
+  }
+/* footer */
+  .connect{
+    font-size: 2.5rem;
+    /* justify-content: space-evenly; */
+  }
+
+  .btn-register{
+    background-color: #3f3d56;
+    color: white;
+    margin-left: 46%;
+  }
+  .btn-register:hover{
+    background-color: #f1f0ff;
+    color: black;
+  }

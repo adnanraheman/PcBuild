@@ -1,0 +1,23 @@
+[
+    {
+        "id":"5",
+        "img":"https://th.bing.com/th/id/OIP.oKAgBzwHUfRvh0FTPtwTagHaHa?w=154&h=180&c=7&o=5&pid=1.7",
+        "heading":"CPU XTD2",
+        "desc":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, in.",
+        "price":2000
+    },
+    {
+        "id":"2",
+        "img":"https://th.bing.com/th/id/OIP.oKAgBzwHUfRvh0FTPtwTagHaHa?w=154&h=180&c=7&o=5&pid=1.7",
+        "heading":"CPU AXTD2",
+        "desc":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, in.",
+        "price":13000
+    },
+    {
+        "id":"3",
+        "img":"https://th.bing.com/th/id/OIP.oKAgBzwHUfRvh0FTPtwTagHaHa?w=154&h=180&c=7&o=5&pid=1.7",
+        "heading":"CPU AXTD2",
+        "desc":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, in.",
+        "price":23000
+    }
+]
